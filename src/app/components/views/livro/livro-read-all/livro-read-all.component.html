@@ -4,7 +4,7 @@
         <h1>LIVROS</h1>
     </div>
 
-    <button class="mat-elevation-z8" mat-raised-button>Novo Livro</button>
+    <button (click)="navegarParaCriarLivro()" class="mat-elevation-z8" mat-raised-button>Novo Livro</button>
 
     <div class="mat-elevation-z8 content-table"></div>
     <table mat-table class="table" [dataSource]="livros">
